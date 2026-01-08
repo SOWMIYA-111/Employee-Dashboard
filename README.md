@@ -1,16 +1,66 @@
-# React + Vite
+ # Employee Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Employee Management System** built using **React.js** with authentication, CRUD operations, image upload, search, filter, and print functionality.  
+All data is stored locally using **LocalStorage**, making it lightweight and easy to run.
+--------------------------------------------------------------------------------------------------
 
-Currently, two official plugins are available:
+## (Project Features)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Authentication
+- Simple login/logout system
+- Session handled using LocalStorage
 
-## React Compiler
+### Employee Management
+- Add new employee
+- Edit employee details
+- Delete employee
+- Print Employee 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Image Support
+- Upload employee profile photo
+- Image preview before saving
+- Display photo in employee table
 
-## Expanding the ESLint configuration
+### Search & Filter
+- Search employees by name
+- Filter by gender
+- Filter by active/inactive status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Print
+- Print individual employee details
+- Clean print layout
+
+### UI & UX
+- Modern, responsive UI
+- Modal-based forms
+- Clean dashboard layout
+
+----------------------------------------------------------------
+
+## Tech Stack
+
+- **React.js** (Vite)
+- **JavaScript (ES6+)**
+- **CSS3 (Modern styling)**
+- **LocalStorage**
+- **HTML5**
+
+----------------------------------------
+
+## Project Structure
+src/
+│── main.jsx
+│── App.jsx
+│── index.css
+│
+├── components/
+│ ├── Login.jsx
+│ ├── Dashboard.jsx
+│ ├── EmployeeForm.jsx
+│ └── EmployeeTable.jsx
+│
+├── utils/
+│ ├── auth.js
+│ └── storage.js
+----------------------------------------------------------------------
+All are my project overview
